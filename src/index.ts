@@ -40,7 +40,7 @@ AppDataSource.initialize().then(async () => {
 
     // insert new users for test
     
-    init()
+    //init()
 
     console.log("Express server has started on port 3000. Open http://localhost:3000/users to see results")
 
