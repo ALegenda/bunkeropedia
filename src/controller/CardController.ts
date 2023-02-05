@@ -15,6 +15,7 @@ export class CardController {
     }
 
     async test(request: Request, response: Response, next: NextFunction) {
+        console.log(request.body)
         return request.body
     }
 
